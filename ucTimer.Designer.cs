@@ -165,6 +165,7 @@
             this.tbTime.Size = new System.Drawing.Size(55, 26);
             this.tbTime.StartIndex = 0;
             this.tbTime.TabIndex = 0;
+            this.tbTime.TabStop = false;
             // 
             // tbExcessTime
             // 

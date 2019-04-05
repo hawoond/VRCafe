@@ -44,6 +44,7 @@
             this.cbChangeTimer.Name = "cbChangeTimer";
             this.cbChangeTimer.Size = new System.Drawing.Size(88, 15);
             this.cbChangeTimer.TabIndex = 2;
+            this.cbChangeTimer.TabStop = false;
             this.cbChangeTimer.Text = "사용시간제";
             this.cbChangeTimer.CheckedChanged += new iTalk.iTalk_CheckBox.CheckedChangedEventHandler(this.CbChangeTimer_CheckedChanged);
             // 
@@ -54,6 +55,7 @@
             this.timer_Calc.Name = "timer_Calc";
             this.timer_Calc.Size = new System.Drawing.Size(636, 50);
             this.timer_Calc.TabIndex = 1;
+            this.timer_Calc.TabStop = false;
             this.timer_Calc.Visible = false;
             // 
             // timer_fixed

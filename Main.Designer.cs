@@ -148,7 +148,7 @@
             this.iTalk_GroupBox1.Text = "요금 설정";
             this.iTalk_GroupBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
-            // tbaHour
+            // tbHour
             // 
             this.tbHour.BackColor = System.Drawing.Color.Transparent;
             this.tbHour.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -156,7 +156,7 @@
             this.tbHour.Location = new System.Drawing.Point(485, 31);
             this.tbHour.MaxLength = 32767;
             this.tbHour.Multiline = false;
-            this.tbHour.Name = "tbaHour";
+            this.tbHour.Name = "tbHour";
             this.tbHour.ReadOnly = false;
             this.tbHour.Size = new System.Drawing.Size(50, 26);
             this.tbHour.TabIndex = 3;
@@ -188,7 +188,7 @@
             this.tbHalf.Name = "tbHalf";
             this.tbHalf.ReadOnly = false;
             this.tbHalf.Size = new System.Drawing.Size(50, 26);
-            this.tbHalf.TabIndex = 1;
+            this.tbHalf.TabIndex = 2;
             this.tbHalf.Text = "500";
             this.tbHalf.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbHalf.UseSystemPasswordChar = false;
@@ -243,7 +243,7 @@
             this.tbPay.Name = "tbPay";
             this.tbPay.ReadOnly = false;
             this.tbPay.Size = new System.Drawing.Size(50, 26);
-            this.tbPay.TabIndex = 0;
+            this.tbPay.TabIndex = 1;
             this.tbPay.Text = "500";
             this.tbPay.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbPay.UseSystemPasswordChar = false;
@@ -322,8 +322,7 @@
             this.ucChangeableTimer1.Location = new System.Drawing.Point(13, 128);
             this.ucChangeableTimer1.Name = "ucChangeableTimer1";
             this.ucChangeableTimer1.Size = new System.Drawing.Size(732, 54);
-            this.ucChangeableTimer1.TabIndex = 4;
-            this.ucChangeableTimer1.TabStop = false;
+            this.ucChangeableTimer1.TabIndex = 0;
             this.ucChangeableTimer1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
             // Main
