@@ -47,6 +47,10 @@ namespace VRTimer
 
                 MessageBox.Show(Properties.Resources.InputPayErrorMessage.ToString());
             }
+            ucChangeableTimer1.SetSerialNoText(Properties.Resources.HMD1);
+            ucChangeableTimer2.SetSerialNoText(Properties.Resources.HMD2);
+            ucChangeableTimer3.SetSerialNoText(Properties.Resources.HMD3);
+            ucChangeableTimer4.SetSerialNoText(Properties.Resources.HMD4);
         }
 
         private void InitEvent()

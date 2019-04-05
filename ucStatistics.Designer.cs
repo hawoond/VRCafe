@@ -64,7 +64,7 @@
             this.iTalk_GroupBox1.MinimumSize = new System.Drawing.Size(136, 50);
             this.iTalk_GroupBox1.Name = "iTalk_GroupBox1";
             this.iTalk_GroupBox1.Padding = new System.Windows.Forms.Padding(5, 28, 5, 5);
-            this.iTalk_GroupBox1.Size = new System.Drawing.Size(701, 147);
+            this.iTalk_GroupBox1.Size = new System.Drawing.Size(730, 147);
             this.iTalk_GroupBox1.TabIndex = 0;
             this.iTalk_GroupBox1.Text = "계산서";
             // 
@@ -77,7 +77,7 @@
             this.iTalk_Panel3.Location = new System.Drawing.Point(490, 31);
             this.iTalk_Panel3.Name = "iTalk_Panel3";
             this.iTalk_Panel3.Padding = new System.Windows.Forms.Padding(5);
-            this.iTalk_Panel3.Size = new System.Drawing.Size(203, 108);
+            this.iTalk_Panel3.Size = new System.Drawing.Size(232, 108);
             this.iTalk_Panel3.TabIndex = 4;
             this.iTalk_Panel3.Text = "iTalk_Panel3";
             // 
@@ -320,7 +320,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.iTalk_GroupBox1);
             this.Name = "ucStatistics";
-            this.Size = new System.Drawing.Size(707, 153);
+            this.Size = new System.Drawing.Size(736, 153);
             this.iTalk_GroupBox1.ResumeLayout(false);
             this.iTalk_Panel3.ResumeLayout(false);
             this.iTalk_Panel3.PerformLayout();

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ucStatistics = new VRTimer.ucStatistics();
             this.btnExit = new iTalk.iTalk_Label();
             this.btnInfo = new iTalk.iTalk_Icon_Info();
             this.iTalk_HeaderLabel1 = new iTalk.iTalk_HeaderLabel();
@@ -49,7 +50,6 @@
             this.ucChangeableTimer3 = new VRTimer.ucChangeableTimer();
             this.ucChangeableTimer2 = new VRTimer.ucChangeableTimer();
             this.ucChangeableTimer1 = new VRTimer.ucChangeableTimer();
-            this.ucStatistics = new VRTimer.ucStatistics();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.iTalk_GroupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -64,13 +64,22 @@
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
+            // ucStatistics
+            // 
+            this.ucStatistics.BackColor = System.Drawing.Color.White;
+            this.ucStatistics.Location = new System.Drawing.Point(13, 357);
+            this.ucStatistics.Name = "ucStatistics";
+            this.ucStatistics.Size = new System.Drawing.Size(736, 153);
+            this.ucStatistics.TabIndex = 51;
+            this.ucStatistics.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
+            // 
             // btnExit
             // 
             this.btnExit.AutoSize = true;
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.btnExit.Location = new System.Drawing.Point(683, 0);
+            this.btnExit.Location = new System.Drawing.Point(713, 0);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(41, 47);
             this.btnExit.TabIndex = 50;
@@ -81,7 +90,7 @@
             // 
             this.btnInfo.BackColor = System.Drawing.Color.White;
             this.btnInfo.ForeColor = System.Drawing.Color.DimGray;
-            this.btnInfo.Location = new System.Drawing.Point(644, 9);
+            this.btnInfo.Location = new System.Drawing.Point(674, 9);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(33, 33);
             this.btnInfo.TabIndex = 49;
@@ -107,7 +116,7 @@
             this.lbTime.BackColor = System.Drawing.Color.Transparent;
             this.lbTime.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbTime.Location = new System.Drawing.Point(631, 78);
+            this.lbTime.Location = new System.Drawing.Point(646, 78);
             this.lbTime.Name = "lbTime";
             this.lbTime.Size = new System.Drawing.Size(89, 30);
             this.lbTime.TabIndex = 35;
@@ -127,7 +136,7 @@
             this.iTalk_GroupBox1.Controls.Add(this.iTalk_Label1);
             this.iTalk_GroupBox1.Controls.Add(this.label3);
             this.iTalk_GroupBox1.Controls.Add(this.label2);
-            this.iTalk_GroupBox1.Location = new System.Drawing.Point(13, 57);
+            this.iTalk_GroupBox1.Location = new System.Drawing.Point(20, 57);
             this.iTalk_GroupBox1.MinimumSize = new System.Drawing.Size(136, 50);
             this.iTalk_GroupBox1.Name = "iTalk_GroupBox1";
             this.iTalk_GroupBox1.Padding = new System.Windows.Forms.Padding(5, 28, 5, 5);
@@ -279,7 +288,7 @@
             this.ucChangeableTimer4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer4.Location = new System.Drawing.Point(13, 310);
             this.ucChangeableTimer4.Name = "ucChangeableTimer4";
-            this.ucChangeableTimer4.Size = new System.Drawing.Size(706, 54);
+            this.ucChangeableTimer4.Size = new System.Drawing.Size(736, 54);
             this.ucChangeableTimer4.TabIndex = 39;
             this.ucChangeableTimer4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -288,7 +297,7 @@
             this.ucChangeableTimer3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer3.Location = new System.Drawing.Point(13, 249);
             this.ucChangeableTimer3.Name = "ucChangeableTimer3";
-            this.ucChangeableTimer3.Size = new System.Drawing.Size(706, 54);
+            this.ucChangeableTimer3.Size = new System.Drawing.Size(736, 54);
             this.ucChangeableTimer3.TabIndex = 38;
             this.ucChangeableTimer3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -297,7 +306,7 @@
             this.ucChangeableTimer2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer2.Location = new System.Drawing.Point(13, 188);
             this.ucChangeableTimer2.Name = "ucChangeableTimer2";
-            this.ucChangeableTimer2.Size = new System.Drawing.Size(706, 54);
+            this.ucChangeableTimer2.Size = new System.Drawing.Size(736, 54);
             this.ucChangeableTimer2.TabIndex = 37;
             this.ucChangeableTimer2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -306,25 +315,16 @@
             this.ucChangeableTimer1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer1.Location = new System.Drawing.Point(13, 128);
             this.ucChangeableTimer1.Name = "ucChangeableTimer1";
-            this.ucChangeableTimer1.Size = new System.Drawing.Size(706, 54);
+            this.ucChangeableTimer1.Size = new System.Drawing.Size(736, 54);
             this.ucChangeableTimer1.TabIndex = 36;
             this.ucChangeableTimer1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
-            // 
-            // ucStatistics
-            // 
-            this.ucStatistics.BackColor = System.Drawing.Color.White;
-            this.ucStatistics.Location = new System.Drawing.Point(13, 357);
-            this.ucStatistics.Name = "ucStatistics";
-            this.ucStatistics.Size = new System.Drawing.Size(707, 153);
-            this.ucStatistics.TabIndex = 51;
-            this.ucStatistics.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(731, 517);
+            this.ClientSize = new System.Drawing.Size(761, 517);
             this.ControlBox = false;
             this.Controls.Add(this.ucStatistics);
             this.Controls.Add(this.btnExit);

@@ -175,4 +175,16 @@
   <data name="RunningCheck" xml:space="preserve">
     <value>모든 기기를 종료 후 프로그램을 종료 해주세요.</value>
   </data>
+  <data name="HMD1" xml:space="preserve">
+    <value>1KWPH800N08472</value>
+  </data>
+  <data name="HMD2" xml:space="preserve">
+    <value>1KWPH800N08473</value>
+  </data>
+  <data name="HMD3" xml:space="preserve">
+    <value>1KWPH800N08474</value>
+  </data>
+  <data name="HMD4" xml:space="preserve">
+    <value>1KWPH800N08475</value>
+  </data>
 </root>

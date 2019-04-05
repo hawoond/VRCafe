@@ -62,5 +62,10 @@ namespace VRTimer
                 timer_fixed.Visible = true;
             }
         }
+
+        public void SetSerialNoText(string serialNo)
+        {
+            lbSerialNo.Text = serialNo;
+        }
     }
 }
