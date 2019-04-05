@@ -30,20 +30,40 @@
         {
             this.components = new System.ComponentModel.Container();
             this.timerVR = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbxTimerState = new System.Windows.Forms.PictureBox();
             this.lbStartTime = new iTalk.iTalk_Label();
             this.label6 = new iTalk.iTalk_Label();
-            this.label7 = new iTalk.iTalk_Label();
             this.lbPay = new iTalk.iTalk_Label();
             this.label5 = new iTalk.iTalk_Label();
             this.lbTime = new iTalk.iTalk_Label();
             this.label4 = new iTalk.iTalk_Label();
             this.lblb = new iTalk.iTalk_Label();
             this.btnStart = new iTalk.iTalk_Button_2();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pbxTimerState = new System.Windows.Forms.PictureBox();
+            this.label7 = new iTalk.iTalk_Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTimerState)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VRTimer.Properties.Resources.FullLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(112, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 34;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pbxTimerState
+            // 
+            this.pbxTimerState.Image = global::VRTimer.Properties.Resources.YelloCircle;
+            this.pbxTimerState.Location = new System.Drawing.Point(545, 14);
+            this.pbxTimerState.Name = "pbxTimerState";
+            this.pbxTimerState.Size = new System.Drawing.Size(23, 23);
+            this.pbxTimerState.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbxTimerState.TabIndex = 35;
+            this.pbxTimerState.TabStop = false;
             // 
             // lbStartTime
             // 
@@ -69,18 +89,6 @@
             this.label6.Size = new System.Drawing.Size(57, 13);
             this.label6.TabIndex = 32;
             this.label6.Text = "시작시간 :";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("맑은 고딕", 8F);
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label7.Location = new System.Drawing.Point(521, 18);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(18, 13);
-            this.label7.TabIndex = 31;
-            this.label7.Text = "원";
             // 
             // lbPay
             // 
@@ -156,25 +164,17 @@
             this.btnStart.Text = "시작";
             this.btnStart.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
-            // pictureBox1
+            // label7
             // 
-            this.pictureBox1.Image = global::VRTimer.Properties.Resources.cat;
-            this.pictureBox1.Location = new System.Drawing.Point(112, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 34;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pbxTimerState
-            // 
-            this.pbxTimerState.Image = global::VRTimer.Properties.Resources.YelloCircle;
-            this.pbxTimerState.Location = new System.Drawing.Point(545, 14);
-            this.pbxTimerState.Name = "pbxTimerState";
-            this.pbxTimerState.Size = new System.Drawing.Size(23, 23);
-            this.pbxTimerState.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbxTimerState.TabIndex = 35;
-            this.pbxTimerState.TabStop = false;
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("맑은 고딕", 8F);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
+            this.label7.Location = new System.Drawing.Point(521, 18);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(18, 13);
+            this.label7.TabIndex = 31;
+            this.label7.Text = "원";
             // 
             // ucTimerCalc
             // 

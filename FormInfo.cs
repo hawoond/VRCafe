@@ -13,6 +13,8 @@ namespace VRTimer
 {
     public partial class FormInfo : Form
     {
+        private const int CS_DROPSHADOW = 0x00020000;
+
         /// <summary>
         /// 생성자다
         /// </summary>
@@ -50,6 +52,16 @@ namespace VRTimer
         private void BtnOk_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ClassStyle |= CS_DROPSHADOW;
+                return cp;
+            }
         }
     }
 }

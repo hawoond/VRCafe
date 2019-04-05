@@ -141,8 +141,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Image\banner.png" />
     <Content Include="Image\BlueCircle.png" />
     <Content Include="Image\cat.gif" />
+    <None Include="Image\FullLogo.png" />
     <Content Include="Image\GrayCircle.png" />
     <Content Include="Image\GreenCircle.png" />
     <Content Include="Image\RedCircle.png" />

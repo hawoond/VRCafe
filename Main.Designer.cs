@@ -69,7 +69,7 @@
             this.ucStatistics.BackColor = System.Drawing.Color.White;
             this.ucStatistics.Location = new System.Drawing.Point(13, 357);
             this.ucStatistics.Name = "ucStatistics";
-            this.ucStatistics.Size = new System.Drawing.Size(736, 153);
+            this.ucStatistics.Size = new System.Drawing.Size(732, 153);
             this.ucStatistics.TabIndex = 51;
             this.ucStatistics.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -79,7 +79,7 @@
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.btnExit.Location = new System.Drawing.Point(713, 0);
+            this.btnExit.Location = new System.Drawing.Point(715, -3);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(41, 47);
             this.btnExit.TabIndex = 50;
@@ -90,7 +90,7 @@
             // 
             this.btnInfo.BackColor = System.Drawing.Color.White;
             this.btnInfo.ForeColor = System.Drawing.Color.DimGray;
-            this.btnInfo.Location = new System.Drawing.Point(674, 9);
+            this.btnInfo.Location = new System.Drawing.Point(679, 7);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(33, 33);
             this.btnInfo.TabIndex = 49;
@@ -114,11 +114,11 @@
             // 
             this.lbTime.AutoSize = true;
             this.lbTime.BackColor = System.Drawing.Color.Transparent;
-            this.lbTime.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTime.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbTime.Location = new System.Drawing.Point(646, 78);
+            this.lbTime.Location = new System.Drawing.Point(622, 74);
             this.lbTime.Name = "lbTime";
-            this.lbTime.Size = new System.Drawing.Size(89, 30);
+            this.lbTime.Size = new System.Drawing.Size(125, 40);
             this.lbTime.TabIndex = 35;
             this.lbTime.Text = "15:21:00";
             this.lbTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -136,11 +136,12 @@
             this.iTalk_GroupBox1.Controls.Add(this.iTalk_Label1);
             this.iTalk_GroupBox1.Controls.Add(this.label3);
             this.iTalk_GroupBox1.Controls.Add(this.label2);
-            this.iTalk_GroupBox1.Location = new System.Drawing.Point(20, 57);
+            this.iTalk_GroupBox1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.iTalk_GroupBox1.Location = new System.Drawing.Point(13, 57);
             this.iTalk_GroupBox1.MinimumSize = new System.Drawing.Size(136, 50);
             this.iTalk_GroupBox1.Name = "iTalk_GroupBox1";
             this.iTalk_GroupBox1.Padding = new System.Windows.Forms.Padding(5, 28, 5, 5);
-            this.iTalk_GroupBox1.Size = new System.Drawing.Size(609, 66);
+            this.iTalk_GroupBox1.Size = new System.Drawing.Size(601, 66);
             this.iTalk_GroupBox1.TabIndex = 40;
             this.iTalk_GroupBox1.Text = "요금 설정";
             this.iTalk_GroupBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
@@ -179,7 +180,7 @@
             this.tbHalf.BackColor = System.Drawing.Color.Transparent;
             this.tbHalf.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tbHalf.ForeColor = System.Drawing.Color.DimGray;
-            this.tbHalf.Location = new System.Drawing.Point(362, 31);
+            this.tbHalf.Location = new System.Drawing.Point(369, 31);
             this.tbHalf.MaxLength = 32767;
             this.tbHalf.Multiline = false;
             this.tbHalf.Name = "tbHalf";
@@ -209,7 +210,7 @@
             this.iTalk_Label4.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label4.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label4.Location = new System.Drawing.Point(414, 37);
+            this.iTalk_Label4.Location = new System.Drawing.Point(421, 37);
             this.iTalk_Label4.Name = "iTalk_Label4";
             this.iTalk_Label4.Size = new System.Drawing.Size(18, 13);
             this.iTalk_Label4.TabIndex = 26;
@@ -222,7 +223,7 @@
             this.iTalk_Label2.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label2.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label2.Location = new System.Drawing.Point(326, 37);
+            this.iTalk_Label2.Location = new System.Drawing.Point(333, 37);
             this.iTalk_Label2.Name = "iTalk_Label2";
             this.iTalk_Label2.Size = new System.Drawing.Size(30, 13);
             this.iTalk_Label2.TabIndex = 26;
@@ -234,7 +235,7 @@
             this.tbPay.BackColor = System.Drawing.Color.Transparent;
             this.tbPay.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tbPay.ForeColor = System.Drawing.Color.DimGray;
-            this.tbPay.Location = new System.Drawing.Point(117, 31);
+            this.tbPay.Location = new System.Drawing.Point(132, 31);
             this.tbPay.MaxLength = 32767;
             this.tbPay.Multiline = false;
             this.tbPay.Name = "tbPay";
@@ -251,7 +252,7 @@
             this.iTalk_Label1.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label1.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.iTalk_Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label1.Location = new System.Drawing.Point(243, 37);
+            this.iTalk_Label1.Location = new System.Drawing.Point(250, 37);
             this.iTalk_Label1.Name = "iTalk_Label1";
             this.iTalk_Label1.Size = new System.Drawing.Size(77, 13);
             this.iTalk_Label1.TabIndex = 25;
@@ -264,7 +265,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label3.Location = new System.Drawing.Point(175, 37);
+            this.label3.Location = new System.Drawing.Point(190, 37);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(38, 13);
             this.label3.TabIndex = 26;
@@ -277,7 +278,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label2.Location = new System.Drawing.Point(34, 37);
+            this.label2.Location = new System.Drawing.Point(49, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 25;
@@ -288,7 +289,7 @@
             this.ucChangeableTimer4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer4.Location = new System.Drawing.Point(13, 310);
             this.ucChangeableTimer4.Name = "ucChangeableTimer4";
-            this.ucChangeableTimer4.Size = new System.Drawing.Size(736, 54);
+            this.ucChangeableTimer4.Size = new System.Drawing.Size(732, 54);
             this.ucChangeableTimer4.TabIndex = 39;
             this.ucChangeableTimer4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -297,7 +298,7 @@
             this.ucChangeableTimer3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer3.Location = new System.Drawing.Point(13, 249);
             this.ucChangeableTimer3.Name = "ucChangeableTimer3";
-            this.ucChangeableTimer3.Size = new System.Drawing.Size(736, 54);
+            this.ucChangeableTimer3.Size = new System.Drawing.Size(732, 54);
             this.ucChangeableTimer3.TabIndex = 38;
             this.ucChangeableTimer3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -306,7 +307,7 @@
             this.ucChangeableTimer2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer2.Location = new System.Drawing.Point(13, 188);
             this.ucChangeableTimer2.Name = "ucChangeableTimer2";
-            this.ucChangeableTimer2.Size = new System.Drawing.Size(736, 54);
+            this.ucChangeableTimer2.Size = new System.Drawing.Size(732, 54);
             this.ucChangeableTimer2.TabIndex = 37;
             this.ucChangeableTimer2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -315,7 +316,7 @@
             this.ucChangeableTimer1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ucChangeableTimer1.Location = new System.Drawing.Point(13, 128);
             this.ucChangeableTimer1.Name = "ucChangeableTimer1";
-            this.ucChangeableTimer1.Size = new System.Drawing.Size(736, 54);
+            this.ucChangeableTimer1.Size = new System.Drawing.Size(732, 54);
             this.ucChangeableTimer1.TabIndex = 36;
             this.ucChangeableTimer1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
@@ -324,7 +325,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(761, 517);
+            this.ClientSize = new System.Drawing.Size(757, 517);
             this.ControlBox = false;
             this.Controls.Add(this.ucStatistics);
             this.Controls.Add(this.btnExit);
