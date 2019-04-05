@@ -39,8 +39,9 @@
             this.iTalk_Label4 = new iTalk.iTalk_Label();
             this.iTalk_Label5 = new iTalk.iTalk_Label();
             this.iTalk_Label1 = new iTalk.iTalk_Label();
-            this.btnOk = new iTalk.iTalk_Button_1();
+            this.btnOk3 = new iTalk.iTalk_Button_1();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnOk = new System.Windows.Forms.Button();
             this.iTalk_GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -181,19 +182,21 @@
             this.iTalk_Label1.TabIndex = 10;
             this.iTalk_Label1.Text = "ⓒ 2019. (주)이레교육개발연구소 all rights reserved.";
             // 
-            // btnOk
+            // btnOk3
             // 
-            this.btnOk.BackColor = System.Drawing.Color.Transparent;
-            this.btnOk.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOk.Image = null;
-            this.btnOk.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOk.Location = new System.Drawing.Point(371, 416);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(60, 22);
-            this.btnOk.TabIndex = 1;
-            this.btnOk.Text = "확인";
-            this.btnOk.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.btnOk.Click += new System.EventHandler(this.BtnOk_Click);
+            this.btnOk3.BackColor = System.Drawing.Color.Transparent;
+            this.btnOk3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk3.Image = null;
+            this.btnOk3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOk3.Location = new System.Drawing.Point(371, 416);
+            this.btnOk3.Name = "btnOk3";
+            this.btnOk3.Size = new System.Drawing.Size(60, 22);
+            this.btnOk3.TabIndex = 1;
+            this.btnOk3.TabStop = false;
+            this.btnOk3.Text = "확인";
+            this.btnOk3.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.btnOk3.Visible = false;
+            this.btnOk3.Click += new System.EventHandler(this.BtnOk_Click);
             // 
             // pictureBox1
             // 
@@ -205,14 +208,26 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // btnOk
+            // 
+            this.btnOk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOk.Location = new System.Drawing.Point(371, 416);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(60, 22);
+            this.btnOk.TabIndex = 1;
+            this.btnOk.Text = "확인";
+            this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.BtnOk_Click);
+            // 
             // FormInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(443, 450);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnOk);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnOk3);
             this.Controls.Add(this.iTalk_Label1);
             this.Controls.Add(this.iTalk_Label5);
             this.Controls.Add(this.iTalk_Label4);
@@ -250,7 +265,8 @@
         private iTalk.iTalk_Label iTalk_Label4;
         private iTalk.iTalk_Label iTalk_Label5;
         private iTalk.iTalk_Label iTalk_Label1;
-        private iTalk.iTalk_Button_1 btnOk;
+        private iTalk.iTalk_Button_1 btnOk3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnOk;
     }
 }

@@ -12,6 +12,8 @@ namespace VRTimer
 {
     public partial class Main : Form
     {
+        private const int CS_DROPSHADOW = 0x00020000;
+
         private Timer tmMainWatch;
         public static UDT.udtFeeOption udtFeeOption;
         public static udtStatistics udtStatistics;
@@ -229,6 +231,19 @@ namespace VRTimer
                 this.Location = new Point(this.Location.X + (e.X - mPoint.X)
 
                 , this.Location.Y + (e.Y - mPoint.Y));
+            }
+        }
+
+        /// <summary>
+        /// 그림자 넣기
+        /// </summary>
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ClassStyle |= CS_DROPSHADOW;
+                return cp;
             }
         }
     }

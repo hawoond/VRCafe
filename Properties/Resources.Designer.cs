@@ -72,6 +72,16 @@ namespace VRTimer.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap banner {
+            get {
+                object obj = ResourceManager.GetObject("banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap BlueCircle {
             get {
                 object obj = ResourceManager.GetObject("BlueCircle", resourceCulture);
@@ -113,6 +123,16 @@ namespace VRTimer.Properties {
         internal static System.Drawing.Bitmap FormIcon {
             get {
                 object obj = ResourceManager.GetObject("FormIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap FullLogo {
+            get {
+                object obj = ResourceManager.GetObject("FullLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
