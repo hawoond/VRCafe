@@ -69,7 +69,7 @@ namespace VRTimer
 
                     udtFeeData.controlInfo = "TIMER";
                     udtFeeData.usedFee = lbTime.Text;
-                    udtFeeData.usedTime = lbTime.Text;
+                    udtFeeData.usedTime = tbTime.Text;
 
                     eTempDataBridge(sender, e, udtFeeData);
                     eStartBtn(sender, e);

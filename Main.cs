@@ -73,6 +73,7 @@ namespace VRTimer
                 // 오재영 때문이야 ㅡㅡ
                 if (int.Parse(data.usedTime) > 30)
                 {
+                    // 초과시간 계산 해야될수도있음
                     udtStatistics.totalFee += udtFeeOption.HourlyRateHour;
                     udtStatistics.totalUsedTime += 60;
                 }
