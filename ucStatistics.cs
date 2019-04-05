@@ -54,6 +54,7 @@ namespace VRTimer
 
             Properties.Settings.Default.TotalUsedFee = nTotalFee;
             Properties.Settings.Default.TotalUsedTime = nTotalUserTime;
+            Properties.Settings.Default.TotalUsedCount = nNumOfUses;
             Properties.Settings.Default.Save();
 
             int nCalcPay = nTotalFee * Properties.Settings.Default.ProfitRate / 100;
@@ -68,6 +69,9 @@ namespace VRTimer
             if (nClickCount == 10)
             {
                 nClickCount = 0;
+
+                formInit = new FormInit();
+                formInit.ePasswordOk += FormInit_ePasswordOk;
                 formInit.Show();
             }
         }
@@ -76,7 +80,10 @@ namespace VRTimer
         {
             Properties.Settings.Default.TotalUsedFee = 0;
             Properties.Settings.Default.TotalUsedTime = 0;
+            Properties.Settings.Default.TotalUsedCount = 0;
             Properties.Settings.Default.Save();
+
+            Main.udtStatistics = new UDT.udtStatistics();
 
             SetData(0, 0, 0);
         }

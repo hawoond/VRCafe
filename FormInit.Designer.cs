@@ -34,11 +34,12 @@
             // 
             // tbPassword
             // 
+            this.tbPassword.Cursor = System.Windows.Forms.Cursors.No;
             this.tbPassword.Location = new System.Drawing.Point(13, 7);
             this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '♥';
             this.tbPassword.Size = new System.Drawing.Size(296, 21);
             this.tbPassword.TabIndex = 0;
-            this.tbPassword.UseSystemPasswordChar = true;
             // 
             // btnInitOk
             // 
@@ -57,8 +58,10 @@
             this.ClientSize = new System.Drawing.Size(400, 38);
             this.Controls.Add(this.btnInitOk);
             this.Controls.Add(this.tbPassword);
+            this.KeyPreview = true;
             this.Name = "FormInit";
-            this.Text = "FormInit";
+            this.Text = "초기화";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormInit_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

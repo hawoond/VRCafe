@@ -39,7 +39,10 @@ namespace VRTimer
             // 내부 저장소에서 udtStatistics 불러오기
             udtStatistics.totalFee = Properties.Settings.Default.TotalUsedFee;
             udtStatistics.totalUsedTime = Properties.Settings.Default.TotalUsedTime;
+            udtStatistics.totalNumOfUses = Properties.Settings.Default.TotalUsedCount;
+
             ucStatistics.AddData(udtStatistics);
+
             try
             {
                 udtFeeOption = new UDT.udtFeeOption(int.Parse(tbPay.Text), int.Parse(tbHalf.Text), int.Parse(tbHour.Text));

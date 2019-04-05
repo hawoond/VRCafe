@@ -38,5 +38,13 @@ namespace VRTimer
                 MessageBox.Show("비밀번호가 일치 하지 않습니다.");
             }
         }
+
+        private void FormInit_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnInitOk_Click(null, null);
+            }
+        }
     }
 }

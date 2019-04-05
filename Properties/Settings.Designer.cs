@@ -94,5 +94,17 @@ namespace VRTimer.Properties {
                 this["ProfitRate"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int TotalUsedCount {
+            get {
+                return ((int)(this["TotalUsedCount"]));
+            }
+            set {
+                this["TotalUsedCount"] = value;
+            }
+        }
     }
 }
