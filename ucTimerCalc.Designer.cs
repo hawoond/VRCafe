@@ -88,9 +88,9 @@
             this.lbPay.BackColor = System.Drawing.Color.Transparent;
             this.lbPay.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.lbPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbPay.Location = new System.Drawing.Point(460, 18);
+            this.lbPay.Location = new System.Drawing.Point(458, 18);
             this.lbPay.Name = "lbPay";
-            this.lbPay.Size = new System.Drawing.Size(35, 13);
+            this.lbPay.Size = new System.Drawing.Size(38, 13);
             this.lbPay.TabIndex = 30;
             this.lbPay.Text = "0";
             this.lbPay.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -198,7 +198,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbStartTime);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.lbPay);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lbTime);
@@ -206,6 +205,7 @@
             this.Controls.Add(this.lblb);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.label7);
             this.Name = "ucTimerCalc";
             this.Size = new System.Drawing.Size(606, 50);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
