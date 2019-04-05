@@ -17,5 +17,11 @@ namespace VRTimer.UDT
             get;
             set;
         }
+
+        public int totalNumOfUses
+        {
+            get;
+            set;
+        }
     }
 }

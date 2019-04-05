@@ -160,7 +160,7 @@
             this.btnStart.Location = new System.Drawing.Point(587, 14);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(42, 23);
-            this.btnStart.TabIndex = 1;
+            this.btnStart.TabIndex = 0;
             this.btnStart.Text = "시작";
             this.btnStart.TextAlignment = System.Drawing.StringAlignment.Center;
             // 

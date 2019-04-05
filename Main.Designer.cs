@@ -36,7 +36,7 @@
             this.iTalk_HeaderLabel1 = new iTalk.iTalk_HeaderLabel();
             this.lbTime = new iTalk.iTalk_Label();
             this.iTalk_GroupBox1 = new iTalk.iTalk_GroupBox();
-            this.tbaHour = new iTalk.iTalk_TextBox_Small();
+            this.tbHour = new iTalk.iTalk_TextBox_Small();
             this.iTalk_Label3 = new iTalk.iTalk_Label();
             this.tbHalf = new iTalk.iTalk_TextBox_Small();
             this.iTalk_Label5 = new iTalk.iTalk_Label();
@@ -71,6 +71,7 @@
             this.ucStatistics.Name = "ucStatistics";
             this.ucStatistics.Size = new System.Drawing.Size(732, 153);
             this.ucStatistics.TabIndex = 51;
+            this.ucStatistics.TabStop = false;
             this.ucStatistics.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
             // btnExit
@@ -94,6 +95,7 @@
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(33, 33);
             this.btnInfo.TabIndex = 49;
+            this.btnInfo.TabStop = false;
             this.btnInfo.Text = "iTalk_Icon_Info1";
             this.btnInfo.Click += new System.EventHandler(this.BtnInfo_Click);
             this.btnInfo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
@@ -126,7 +128,7 @@
             // iTalk_GroupBox1
             // 
             this.iTalk_GroupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_GroupBox1.Controls.Add(this.tbaHour);
+            this.iTalk_GroupBox1.Controls.Add(this.tbHour);
             this.iTalk_GroupBox1.Controls.Add(this.iTalk_Label3);
             this.iTalk_GroupBox1.Controls.Add(this.tbHalf);
             this.iTalk_GroupBox1.Controls.Add(this.iTalk_Label5);
@@ -148,19 +150,19 @@
             // 
             // tbaHour
             // 
-            this.tbaHour.BackColor = System.Drawing.Color.Transparent;
-            this.tbaHour.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tbaHour.ForeColor = System.Drawing.Color.DimGray;
-            this.tbaHour.Location = new System.Drawing.Point(485, 31);
-            this.tbaHour.MaxLength = 32767;
-            this.tbaHour.Multiline = false;
-            this.tbaHour.Name = "tbaHour";
-            this.tbaHour.ReadOnly = false;
-            this.tbaHour.Size = new System.Drawing.Size(50, 26);
-            this.tbaHour.TabIndex = 24;
-            this.tbaHour.Text = "500";
-            this.tbaHour.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
-            this.tbaHour.UseSystemPasswordChar = false;
+            this.tbHour.BackColor = System.Drawing.Color.Transparent;
+            this.tbHour.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tbHour.ForeColor = System.Drawing.Color.DimGray;
+            this.tbHour.Location = new System.Drawing.Point(485, 31);
+            this.tbHour.MaxLength = 32767;
+            this.tbHour.Multiline = false;
+            this.tbHour.Name = "tbaHour";
+            this.tbHour.ReadOnly = false;
+            this.tbHour.Size = new System.Drawing.Size(50, 26);
+            this.tbHour.TabIndex = 3;
+            this.tbHour.Text = "500";
+            this.tbHour.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbHour.UseSystemPasswordChar = false;
             // 
             // iTalk_Label3
             // 
@@ -186,7 +188,7 @@
             this.tbHalf.Name = "tbHalf";
             this.tbHalf.ReadOnly = false;
             this.tbHalf.Size = new System.Drawing.Size(50, 26);
-            this.tbHalf.TabIndex = 24;
+            this.tbHalf.TabIndex = 1;
             this.tbHalf.Text = "500";
             this.tbHalf.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbHalf.UseSystemPasswordChar = false;
@@ -241,7 +243,7 @@
             this.tbPay.Name = "tbPay";
             this.tbPay.ReadOnly = false;
             this.tbPay.Size = new System.Drawing.Size(50, 26);
-            this.tbPay.TabIndex = 24;
+            this.tbPay.TabIndex = 0;
             this.tbPay.Text = "500";
             this.tbPay.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbPay.UseSystemPasswordChar = false;
@@ -290,7 +292,8 @@
             this.ucChangeableTimer4.Location = new System.Drawing.Point(13, 310);
             this.ucChangeableTimer4.Name = "ucChangeableTimer4";
             this.ucChangeableTimer4.Size = new System.Drawing.Size(732, 54);
-            this.ucChangeableTimer4.TabIndex = 39;
+            this.ucChangeableTimer4.TabIndex = 7;
+            this.ucChangeableTimer4.TabStop = false;
             this.ucChangeableTimer4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
             // ucChangeableTimer3
@@ -299,7 +302,8 @@
             this.ucChangeableTimer3.Location = new System.Drawing.Point(13, 249);
             this.ucChangeableTimer3.Name = "ucChangeableTimer3";
             this.ucChangeableTimer3.Size = new System.Drawing.Size(732, 54);
-            this.ucChangeableTimer3.TabIndex = 38;
+            this.ucChangeableTimer3.TabIndex = 6;
+            this.ucChangeableTimer3.TabStop = false;
             this.ucChangeableTimer3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
             // ucChangeableTimer2
@@ -308,7 +312,8 @@
             this.ucChangeableTimer2.Location = new System.Drawing.Point(13, 188);
             this.ucChangeableTimer2.Name = "ucChangeableTimer2";
             this.ucChangeableTimer2.Size = new System.Drawing.Size(732, 54);
-            this.ucChangeableTimer2.TabIndex = 37;
+            this.ucChangeableTimer2.TabIndex = 5;
+            this.ucChangeableTimer2.TabStop = false;
             this.ucChangeableTimer2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
             // ucChangeableTimer1
@@ -317,7 +322,8 @@
             this.ucChangeableTimer1.Location = new System.Drawing.Point(13, 128);
             this.ucChangeableTimer1.Name = "ucChangeableTimer1";
             this.ucChangeableTimer1.Size = new System.Drawing.Size(732, 54);
-            this.ucChangeableTimer1.TabIndex = 36;
+            this.ucChangeableTimer1.TabIndex = 4;
+            this.ucChangeableTimer1.TabStop = false;
             this.ucChangeableTimer1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
             // Main
@@ -364,7 +370,7 @@
 
         private iTalk.iTalk_Label lbTime;
         private iTalk.iTalk_GroupBox iTalk_GroupBox1;
-        private iTalk.iTalk_TextBox_Small tbaHour;
+        private iTalk.iTalk_TextBox_Small tbHour;
         private iTalk.iTalk_Label iTalk_Label3;
         private iTalk.iTalk_TextBox_Small tbHalf;
         private iTalk.iTalk_Label iTalk_Label5;

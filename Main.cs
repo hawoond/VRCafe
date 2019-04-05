@@ -33,7 +33,7 @@ namespace VRTimer
             udtStatistics = new udtStatistics();
 
             tbHalf.Text = Properties.Settings.Default.Half.ToString();
-            tbaHour.Text = Properties.Settings.Default.Hour.ToString();
+            tbHour.Text = Properties.Settings.Default.Hour.ToString();
             tbPay.Text = Properties.Settings.Default.Min.ToString();
 
             // 내부 저장소에서 udtStatistics 불러오기
@@ -42,7 +42,7 @@ namespace VRTimer
             ucStatistics.AddData(udtStatistics);
             try
             {
-                udtFeeOption = new UDT.udtFeeOption(int.Parse(tbPay.Text), int.Parse(tbHalf.Text), int.Parse(tbaHour.Text));
+                udtFeeOption = new UDT.udtFeeOption(int.Parse(tbPay.Text), int.Parse(tbHalf.Text), int.Parse(tbHour.Text));
             }
             catch (Exception ex)
             {
@@ -53,13 +53,14 @@ namespace VRTimer
             ucChangeableTimer2.SetSerialNoText(Properties.Resources.HMD2);
             ucChangeableTimer3.SetSerialNoText(Properties.Resources.HMD3);
             ucChangeableTimer4.SetSerialNoText(Properties.Resources.HMD4);
+
         }
 
         private void InitEvent()
         {
             tbPay.TextChanged += TbPay_TextChanged;
             tbHalf.TextChanged += TbHalf_TextChanged;
-            tbaHour.TextChanged += TbaHour_TextChanged;
+            tbHour.TextChanged += TbaHour_TextChanged;
             ucChangeableTimer1.eTimerCheck += eTimerCheck;
             ucChangeableTimer2.eTimerCheck += eTimerCheck;
             ucChangeableTimer3.eTimerCheck += eTimerCheck;
@@ -90,6 +91,9 @@ namespace VRTimer
                 udtStatistics.totalFee += int.Parse(data.usedFee);
                 udtStatistics.totalUsedTime += int.Parse(data.usedTime);
             }
+
+            udtStatistics.totalNumOfUses++;
+
             ucStatistics.AddData(udtStatistics);
         }
 
@@ -108,6 +112,7 @@ namespace VRTimer
             }
             catch (Exception ex)
             {
+                tbPay.Text = "0";
                 MessageBox.Show(Properties.Resources.InputPayErrorMessage.ToString() + "\n" + ex.Message.ToString());
             }
         }
@@ -127,6 +132,7 @@ namespace VRTimer
             }
             catch (Exception ex)
             {
+                tbHalf.Text = "0";
                 MessageBox.Show(Properties.Resources.InputPayErrorMessage.ToString());
             }
         }
@@ -140,12 +146,13 @@ namespace VRTimer
         {
             try
             {
-                udtFeeOption.HourlyRateHour = int.Parse(tbaHour.Text);
-                Properties.Settings.Default.Hour = int.Parse(tbaHour.Text);
+                udtFeeOption.HourlyRateHour = int.Parse(tbHour.Text);
+                Properties.Settings.Default.Hour = int.Parse(tbHour.Text);
                 Properties.Settings.Default.Save();
             }
             catch (Exception ex)
             {
+                tbHour.Text = "0";
                 MessageBox.Show(Properties.Resources.InputPayErrorMessage.ToString());
             }
         }

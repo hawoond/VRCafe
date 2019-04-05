@@ -47,6 +47,9 @@
             this.iTalk_Label1 = new iTalk.iTalk_Label();
             this.tbTotlaFee = new iTalk.iTalk_TextBox_Small();
             this.tbTotlaHour = new iTalk.iTalk_TextBox_Small();
+            this.iTalk_Label12 = new iTalk.iTalk_Label();
+            this.iTalk_Label13 = new iTalk.iTalk_Label();
+            this.tbNumOfUses = new iTalk.iTalk_TextBox_Small();
             this.iTalk_GroupBox1.SuspendLayout();
             this.iTalk_Panel3.SuspendLayout();
             this.iTalk_Panel2.SuspendLayout();
@@ -220,6 +223,9 @@
             // lala
             // 
             this.lala.BackColor = System.Drawing.Color.Transparent;
+            this.lala.Controls.Add(this.iTalk_Label12);
+            this.lala.Controls.Add(this.iTalk_Label13);
+            this.lala.Controls.Add(this.tbNumOfUses);
             this.lala.Controls.Add(this.iTalk_Label2);
             this.lala.Controls.Add(this.iTalk_Label4);
             this.lala.Controls.Add(this.iTalk_Label3);
@@ -239,7 +245,7 @@
             this.iTalk_Label2.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label2.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label2.Location = new System.Drawing.Point(11, 65);
+            this.iTalk_Label2.Location = new System.Drawing.Point(11, 82);
             this.iTalk_Label2.Name = "iTalk_Label2";
             this.iTalk_Label2.Size = new System.Drawing.Size(70, 13);
             this.iTalk_Label2.TabIndex = 2;
@@ -251,7 +257,7 @@
             this.iTalk_Label4.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label4.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label4.Location = new System.Drawing.Point(203, 65);
+            this.iTalk_Label4.Location = new System.Drawing.Point(203, 82);
             this.iTalk_Label4.Name = "iTalk_Label4";
             this.iTalk_Label4.Size = new System.Drawing.Size(18, 13);
             this.iTalk_Label4.TabIndex = 2;
@@ -263,7 +269,7 @@
             this.iTalk_Label3.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label3.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label3.Location = new System.Drawing.Point(203, 31);
+            this.iTalk_Label3.Location = new System.Drawing.Point(203, 48);
             this.iTalk_Label3.Name = "iTalk_Label3";
             this.iTalk_Label3.Size = new System.Drawing.Size(18, 13);
             this.iTalk_Label3.TabIndex = 2;
@@ -275,7 +281,7 @@
             this.iTalk_Label1.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label1.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label1.Location = new System.Drawing.Point(11, 31);
+            this.iTalk_Label1.Location = new System.Drawing.Point(11, 48);
             this.iTalk_Label1.Name = "iTalk_Label1";
             this.iTalk_Label1.Size = new System.Drawing.Size(70, 13);
             this.iTalk_Label1.TabIndex = 2;
@@ -287,7 +293,7 @@
             this.tbTotlaFee.Enabled = false;
             this.tbTotlaFee.Font = new System.Drawing.Font("Tahoma", 11F);
             this.tbTotlaFee.ForeColor = System.Drawing.Color.DimGray;
-            this.tbTotlaFee.Location = new System.Drawing.Point(85, 58);
+            this.tbTotlaFee.Location = new System.Drawing.Point(85, 75);
             this.tbTotlaFee.MaxLength = 32767;
             this.tbTotlaFee.Multiline = false;
             this.tbTotlaFee.Name = "tbTotlaFee";
@@ -304,7 +310,7 @@
             this.tbTotlaHour.Enabled = false;
             this.tbTotlaHour.Font = new System.Drawing.Font("Tahoma", 11F);
             this.tbTotlaHour.ForeColor = System.Drawing.Color.DimGray;
-            this.tbTotlaHour.Location = new System.Drawing.Point(85, 24);
+            this.tbTotlaHour.Location = new System.Drawing.Point(85, 41);
             this.tbTotlaHour.MaxLength = 32767;
             this.tbTotlaHour.Multiline = false;
             this.tbTotlaHour.Name = "tbTotlaHour";
@@ -314,6 +320,47 @@
             this.tbTotlaHour.Text = "0";
             this.tbTotlaHour.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbTotlaHour.UseSystemPasswordChar = false;
+            // 
+            // iTalk_Label12
+            // 
+            this.iTalk_Label12.AutoSize = true;
+            this.iTalk_Label12.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_Label12.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_Label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
+            this.iTalk_Label12.Location = new System.Drawing.Point(203, 14);
+            this.iTalk_Label12.Name = "iTalk_Label12";
+            this.iTalk_Label12.Size = new System.Drawing.Size(18, 13);
+            this.iTalk_Label12.TabIndex = 5;
+            this.iTalk_Label12.Text = "회";
+            // 
+            // iTalk_Label13
+            // 
+            this.iTalk_Label13.AutoSize = true;
+            this.iTalk_Label13.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_Label13.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_Label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
+            this.iTalk_Label13.Location = new System.Drawing.Point(11, 14);
+            this.iTalk_Label13.Name = "iTalk_Label13";
+            this.iTalk_Label13.Size = new System.Drawing.Size(70, 13);
+            this.iTalk_Label13.TabIndex = 4;
+            this.iTalk_Label13.Text = "총 사용 횟수";
+            // 
+            // tbNumOfUses
+            // 
+            this.tbNumOfUses.BackColor = System.Drawing.Color.Transparent;
+            this.tbNumOfUses.Enabled = false;
+            this.tbNumOfUses.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.tbNumOfUses.ForeColor = System.Drawing.Color.DimGray;
+            this.tbNumOfUses.Location = new System.Drawing.Point(85, 7);
+            this.tbNumOfUses.MaxLength = 32767;
+            this.tbNumOfUses.Multiline = false;
+            this.tbNumOfUses.Name = "tbNumOfUses";
+            this.tbNumOfUses.ReadOnly = true;
+            this.tbNumOfUses.Size = new System.Drawing.Size(112, 28);
+            this.tbNumOfUses.TabIndex = 3;
+            this.tbNumOfUses.Text = "0";
+            this.tbNumOfUses.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbNumOfUses.UseSystemPasswordChar = false;
             // 
             // ucStatistics
             // 
@@ -355,5 +402,8 @@
         private iTalk.iTalk_Label iTalk_Label11;
         private iTalk.iTalk_Label iTalk_Label10;
         private iTalk.iTalk_Label iTalk_Label9;
+        private iTalk.iTalk_Label iTalk_Label12;
+        private iTalk.iTalk_Label iTalk_Label13;
+        private iTalk.iTalk_TextBox_Small tbNumOfUses;
     }
 }

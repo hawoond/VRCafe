@@ -35,7 +35,7 @@ namespace VRTimer
             //    MessageBox.Show(Properties.Resources.CalcFeeError.ToString());
             //    return false;
             //}
-            SetData(feeData.totalFee, feeData.totalUsedTime);
+            SetData(feeData.totalFee, feeData.totalUsedTime, feeData.totalNumOfUses);
             return true; ;
         }
 
@@ -44,13 +44,13 @@ namespace VRTimer
         /// </summary>
         /// <param name="nTotalFee">총 사용 요금</param>
         /// <param name="nTotalUserTime">총 사용 시간</param>
-        private void SetData(int nTotalFee, int nTotalUserTime)
+        private void SetData(int nTotalFee, int nTotalUserTime, int nNumOfUses)
         {
             // 이윤율 7:3
 
-
             tbTotlaFee.Text = nTotalFee.ToString();
             tbTotlaHour.Text = nTotalUserTime.ToString();
+            tbNumOfUses.Text = nNumOfUses.ToString();
 
             Properties.Settings.Default.TotalUsedFee = nTotalFee;
             Properties.Settings.Default.TotalUsedTime = nTotalUserTime;
@@ -78,7 +78,7 @@ namespace VRTimer
             Properties.Settings.Default.TotalUsedTime = 0;
             Properties.Settings.Default.Save();
 
-            SetData(0, 0);
+            SetData(0, 0, 0);
         }
     }
 
