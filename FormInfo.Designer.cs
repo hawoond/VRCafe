@@ -62,7 +62,7 @@
             this.iTalk_HeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_HeaderLabel1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_HeaderLabel1.ForeColor = System.Drawing.Color.DimGray;
-            this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(42, 10);
+            this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(42, 7);
             this.iTalk_HeaderLabel1.Name = "iTalk_HeaderLabel1";
             this.iTalk_HeaderLabel1.Size = new System.Drawing.Size(172, 37);
             this.iTalk_HeaderLabel1.TabIndex = 1;
