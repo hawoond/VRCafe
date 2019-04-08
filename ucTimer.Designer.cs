@@ -66,7 +66,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label2.Location = new System.Drawing.Point(107, 18);
+            this.label2.Location = new System.Drawing.Point(108, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 9;
@@ -90,7 +90,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label3.Location = new System.Drawing.Point(202, 18);
+            this.label3.Location = new System.Drawing.Point(203, 18);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(18, 13);
             this.label3.TabIndex = 12;
@@ -159,8 +159,9 @@
             this.tbTime.ItemHeight = 20;
             this.tbTime.Items.AddRange(new object[] {
             "30",
-            "60"});
-            this.tbTime.Location = new System.Drawing.Point(148, 11);
+            "60",
+            "1"});
+            this.tbTime.Location = new System.Drawing.Point(149, 11);
             this.tbTime.Name = "tbTime";
             this.tbTime.Size = new System.Drawing.Size(55, 26);
             this.tbTime.StartIndex = 0;

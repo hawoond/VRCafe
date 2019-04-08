@@ -50,14 +50,16 @@
             this.ucChangeableTimer3 = new VRTimer.ucChangeableTimer();
             this.ucChangeableTimer2 = new VRTimer.ucChangeableTimer();
             this.ucChangeableTimer1 = new VRTimer.ucChangeableTimer();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.iTalk_GroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::VRTimer.Properties.Resources.VR_Cafe;
-            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(13, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(53, 41);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -104,11 +106,11 @@
             // 
             this.iTalk_HeaderLabel1.AutoSize = true;
             this.iTalk_HeaderLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel1.Font = new System.Drawing.Font("맑은 고딕", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel1.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.iTalk_HeaderLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(59, 6);
+            this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(85, 15);
             this.iTalk_HeaderLabel1.Name = "iTalk_HeaderLabel1";
-            this.iTalk_HeaderLabel1.Size = new System.Drawing.Size(133, 40);
+            this.iTalk_HeaderLabel1.Size = new System.Drawing.Size(97, 30);
             this.iTalk_HeaderLabel1.TabIndex = 45;
             this.iTalk_HeaderLabel1.Text = "고객관리";
             // 
@@ -325,6 +327,16 @@
             this.ucChangeableTimer1.TabIndex = 0;
             this.ucChangeableTimer1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::VRTimer.Properties.Resources.FormIcon;
+            this.pictureBox2.Location = new System.Drawing.Point(599, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(74, 41);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 52;
+            this.pictureBox2.TabStop = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -332,6 +344,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(757, 517);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.ucStatistics);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnInfo);
@@ -360,6 +373,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.iTalk_GroupBox1.ResumeLayout(false);
             this.iTalk_GroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -388,6 +402,7 @@
         private iTalk.iTalk_Icon_Info btnInfo;
         private iTalk.iTalk_Label btnExit;
         private ucStatistics ucStatistics;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

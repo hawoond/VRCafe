@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.timerVR = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pbxTimerState = new System.Windows.Forms.PictureBox();
             this.lbStartTime = new iTalk.iTalk_Label();
             this.label6 = new iTalk.iTalk_Label();
@@ -41,19 +40,9 @@
             this.lblb = new iTalk.iTalk_Label();
             this.btnStart = new iTalk.iTalk_Button_2();
             this.label7 = new iTalk.iTalk_Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.lbRunning = new iTalk.iTalk_Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTimerState)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::VRTimer.Properties.Resources.FullLogo;
-            this.pictureBox1.Location = new System.Drawing.Point(112, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 34;
-            this.pictureBox1.TabStop = false;
             // 
             // pbxTimerState
             // 
@@ -176,13 +165,25 @@
             this.label7.TabIndex = 31;
             this.label7.Text = "원";
             // 
+            // lbRunning
+            // 
+            this.lbRunning.AutoSize = true;
+            this.lbRunning.BackColor = System.Drawing.Color.Transparent;
+            this.lbRunning.Font = new System.Drawing.Font("맑은 고딕", 8F);
+            this.lbRunning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
+            this.lbRunning.Location = new System.Drawing.Point(109, 18);
+            this.lbRunning.Name = "lbRunning";
+            this.lbRunning.Size = new System.Drawing.Size(40, 13);
+            this.lbRunning.TabIndex = 37;
+            this.lbRunning.Text = "사용중";
+            // 
             // ucTimerCalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lbRunning);
             this.Controls.Add(this.pbxTimerState);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbStartTime);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.lbPay);
@@ -194,7 +195,6 @@
             this.Controls.Add(this.label7);
             this.Name = "ucTimerCalc";
             this.Size = new System.Drawing.Size(636, 50);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTimerState)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -213,7 +213,7 @@
         private iTalk.iTalk_Label label7;
         private iTalk.iTalk_Label lbStartTime;
         private iTalk.iTalk_Label label6;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pbxTimerState;
+        private iTalk.iTalk_Label lbRunning;
     }
 }
