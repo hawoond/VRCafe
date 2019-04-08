@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.cbChangeTimer = new iTalk.iTalk_CheckBox();
             this.lbSerialNo = new iTalk.iTalk_Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.timer_fixed = new VRTimer.ucTimer();
             this.timer_Calc = new VRTimer.ucTimerCalc();
+            this.timer_fixed = new VRTimer.ucTimer();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +63,7 @@
             this.lbSerialNo.Size = new System.Drawing.Size(40, 13);
             this.lbSerialNo.TabIndex = 22;
             this.lbSerialNo.Text = "HMD1";
+            this.lbSerialNo.MouseHover += new System.EventHandler(this.LbSerialNo_MouseHover);
             // 
             // panel1
             // 
@@ -71,14 +74,6 @@
             this.panel1.Size = new System.Drawing.Size(525, 50);
             this.panel1.TabIndex = 23;
             // 
-            // timer_fixed
-            // 
-            this.timer_fixed.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.timer_fixed.Location = new System.Drawing.Point(0, 0);
-            this.timer_fixed.Name = "timer_fixed";
-            this.timer_fixed.Size = new System.Drawing.Size(525, 50);
-            this.timer_fixed.TabIndex = 0;
-            // 
             // timer_Calc
             // 
             this.timer_Calc.BackColor = System.Drawing.Color.White;
@@ -87,6 +82,14 @@
             this.timer_Calc.Size = new System.Drawing.Size(525, 50);
             this.timer_Calc.TabIndex = 1;
             this.timer_Calc.Visible = false;
+            // 
+            // timer_fixed
+            // 
+            this.timer_fixed.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.timer_fixed.Location = new System.Drawing.Point(0, 0);
+            this.timer_fixed.Name = "timer_fixed";
+            this.timer_fixed.Size = new System.Drawing.Size(525, 50);
+            this.timer_fixed.TabIndex = 0;
             // 
             // ucChangeableTimer
             // 
@@ -110,5 +113,6 @@
         private System.Windows.Forms.Panel panel1;
         private ucTimerCalc timer_Calc;
         private ucTimer timer_fixed;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

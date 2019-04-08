@@ -130,7 +130,7 @@
   <data name="Start" xml:space="preserve">
     <value>시작</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="FullLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\FullLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -197,8 +197,19 @@
     <value>HMD4</value>
     <comment>1KWPH800N08475</comment>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="vrCafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\vrCafe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HMD1ToolTip" xml:space="preserve">
+    <value>1KWPH800N08472</value>
+  </data>
+  <data name="HMD2ToolTip" xml:space="preserve">
+    <value>1KWPH800N08473</value>
+  </data>
+  <data name="HMD3ToolTip" xml:space="preserve">
+    <value>1KWPH800N08474</value>
+  </data>
+  <data name="HMD4ToolTip" xml:space="preserve">
+    <value>1KWPH800N08475</value>
   </data>
 </root>

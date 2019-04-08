@@ -167,11 +167,29 @@ namespace VRTimer.Properties {
         }
         
         /// <summary>
+        ///   1KWPH800N08472과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string HMD1ToolTip {
+            get {
+                return ResourceManager.GetString("HMD1ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   HMD2과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string HMD2 {
             get {
                 return ResourceManager.GetString("HMD2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   1KWPH800N08473과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string HMD2ToolTip {
+            get {
+                return ResourceManager.GetString("HMD2ToolTip", resourceCulture);
             }
         }
         
@@ -185,11 +203,29 @@ namespace VRTimer.Properties {
         }
         
         /// <summary>
+        ///   1KWPH800N08474과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string HMD3ToolTip {
+            get {
+                return ResourceManager.GetString("HMD3ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   HMD4과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string HMD4 {
             get {
                 return ResourceManager.GetString("HMD4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   1KWPH800N08475과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string HMD4ToolTip {
+            get {
+                return ResourceManager.GetString("HMD4ToolTip", resourceCulture);
             }
         }
         

@@ -67,5 +67,16 @@ namespace VRTimer
         {
             lbSerialNo.Text = serialNo;
         }
+
+        public void SetSerialNoTooltipText(string tooltipText)
+        {
+            toolTip1.ToolTipTitle = "SerialNo";
+            toolTip1.SetToolTip(this.lbSerialNo, tooltipText);
+        }
+
+        private void LbSerialNo_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.IsBalloon = true;
+        }
     }
 }
