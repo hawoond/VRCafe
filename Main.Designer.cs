@@ -69,7 +69,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VRTimer.Properties.Resources.FormIcon;
-            this.pictureBox2.Location = new System.Drawing.Point(609, 7);
+            this.pictureBox2.Location = new System.Drawing.Point(548, 7);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(74, 41);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -81,7 +81,7 @@
             this.ucStatistics.BackColor = System.Drawing.Color.White;
             this.ucStatistics.Location = new System.Drawing.Point(13, 357);
             this.ucStatistics.Name = "ucStatistics";
-            this.ucStatistics.Size = new System.Drawing.Size(732, 88);
+            this.ucStatistics.Size = new System.Drawing.Size(675, 88);
             this.ucStatistics.TabIndex = 51;
             this.ucStatistics.TabStop = false;
             this.ucStatistics.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
@@ -90,11 +90,11 @@
             // 
             this.btnExit.AutoSize = true;
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 26F);
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.btnExit.Location = new System.Drawing.Point(724, 7);
+            this.btnExit.Location = new System.Drawing.Point(662, -2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(29, 32);
+            this.btnExit.Size = new System.Drawing.Size(41, 47);
             this.btnExit.TabIndex = 50;
             this.btnExit.Text = "X";
             this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
@@ -105,7 +105,7 @@
             this.btnInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnInfo.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnInfo.ForeColor = System.Drawing.Color.DimGray;
-            this.btnInfo.Location = new System.Drawing.Point(687, 7);
+            this.btnInfo.Location = new System.Drawing.Point(631, 7);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(33, 33);
             this.btnInfo.TabIndex = 49;
@@ -132,7 +132,7 @@
             this.lbTime.BackColor = System.Drawing.Color.Transparent;
             this.lbTime.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbTime.Location = new System.Drawing.Point(622, 74);
+            this.lbTime.Location = new System.Drawing.Point(574, 74);
             this.lbTime.Name = "lbTime";
             this.lbTime.Size = new System.Drawing.Size(125, 40);
             this.lbTime.TabIndex = 35;
@@ -157,7 +157,7 @@
             this.iTalk_GroupBox1.MinimumSize = new System.Drawing.Size(136, 50);
             this.iTalk_GroupBox1.Name = "iTalk_GroupBox1";
             this.iTalk_GroupBox1.Padding = new System.Windows.Forms.Padding(5, 28, 5, 5);
-            this.iTalk_GroupBox1.Size = new System.Drawing.Size(601, 66);
+            this.iTalk_GroupBox1.Size = new System.Drawing.Size(552, 66);
             this.iTalk_GroupBox1.TabIndex = 40;
             this.iTalk_GroupBox1.Text = "요금 설정";
             this.iTalk_GroupBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
@@ -167,7 +167,7 @@
             this.tbHour.BackColor = System.Drawing.Color.Transparent;
             this.tbHour.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tbHour.ForeColor = System.Drawing.Color.DimGray;
-            this.tbHour.Location = new System.Drawing.Point(485, 31);
+            this.tbHour.Location = new System.Drawing.Point(468, 31);
             this.tbHour.MaxLength = 32767;
             this.tbHour.Multiline = false;
             this.tbHour.Name = "tbHour";
@@ -184,7 +184,7 @@
             this.iTalk_Label3.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label3.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label3.Location = new System.Drawing.Point(444, 37);
+            this.iTalk_Label3.Location = new System.Drawing.Point(427, 37);
             this.iTalk_Label3.Name = "iTalk_Label3";
             this.iTalk_Label3.Size = new System.Drawing.Size(35, 13);
             this.iTalk_Label3.TabIndex = 26;
@@ -196,7 +196,7 @@
             this.tbHalf.BackColor = System.Drawing.Color.Transparent;
             this.tbHalf.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tbHalf.ForeColor = System.Drawing.Color.DimGray;
-            this.tbHalf.Location = new System.Drawing.Point(369, 31);
+            this.tbHalf.Location = new System.Drawing.Point(352, 31);
             this.tbHalf.MaxLength = 32767;
             this.tbHalf.Multiline = false;
             this.tbHalf.Name = "tbHalf";
@@ -213,7 +213,7 @@
             this.iTalk_Label5.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label5.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label5.Location = new System.Drawing.Point(537, 37);
+            this.iTalk_Label5.Location = new System.Drawing.Point(520, 37);
             this.iTalk_Label5.Name = "iTalk_Label5";
             this.iTalk_Label5.Size = new System.Drawing.Size(18, 13);
             this.iTalk_Label5.TabIndex = 26;
@@ -226,7 +226,7 @@
             this.iTalk_Label4.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label4.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label4.Location = new System.Drawing.Point(421, 37);
+            this.iTalk_Label4.Location = new System.Drawing.Point(404, 37);
             this.iTalk_Label4.Name = "iTalk_Label4";
             this.iTalk_Label4.Size = new System.Drawing.Size(18, 13);
             this.iTalk_Label4.TabIndex = 26;
@@ -239,7 +239,7 @@
             this.iTalk_Label2.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label2.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label2.Location = new System.Drawing.Point(333, 37);
+            this.iTalk_Label2.Location = new System.Drawing.Point(316, 37);
             this.iTalk_Label2.Name = "iTalk_Label2";
             this.iTalk_Label2.Size = new System.Drawing.Size(30, 13);
             this.iTalk_Label2.TabIndex = 26;
@@ -251,7 +251,7 @@
             this.tbPay.BackColor = System.Drawing.Color.Transparent;
             this.tbPay.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tbPay.ForeColor = System.Drawing.Color.DimGray;
-            this.tbPay.Location = new System.Drawing.Point(132, 31);
+            this.tbPay.Location = new System.Drawing.Point(106, 31);
             this.tbPay.MaxLength = 32767;
             this.tbPay.Multiline = false;
             this.tbPay.Name = "tbPay";
@@ -268,7 +268,7 @@
             this.iTalk_Label1.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label1.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.iTalk_Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label1.Location = new System.Drawing.Point(250, 37);
+            this.iTalk_Label1.Location = new System.Drawing.Point(233, 37);
             this.iTalk_Label1.Name = "iTalk_Label1";
             this.iTalk_Label1.Size = new System.Drawing.Size(77, 13);
             this.iTalk_Label1.TabIndex = 25;
@@ -281,7 +281,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label3.Location = new System.Drawing.Point(190, 37);
+            this.label3.Location = new System.Drawing.Point(164, 37);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(38, 13);
             this.label3.TabIndex = 26;
@@ -294,7 +294,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label2.Location = new System.Drawing.Point(49, 37);
+            this.label2.Location = new System.Drawing.Point(23, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 25;
@@ -344,7 +344,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(757, 452);
+            this.ClientSize = new System.Drawing.Size(701, 452);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.ucStatistics);
