@@ -33,6 +33,7 @@ namespace VRTimer
         {
             btnStart.Text = Properties.Resources.Start.ToString();
             lbStartTime.Text = "00:00";
+            lbRunning.Visible = false;
 
             this.pbxTimerState.Image = Properties.Resources.GrayCircle;
 
@@ -49,6 +50,7 @@ namespace VRTimer
             {
                 if (Properties.Resources.End.ToString().Equals(btnStart.Text))
                 {
+                    lbRunning.Visible = false;
                     btnStart.Text = Properties.Resources.Start.ToString();
                     this.pbxTimerState.Image = Properties.Resources.GrayCircle;
                     if (null != timerVR)
@@ -70,6 +72,8 @@ namespace VRTimer
                 }
                 else
                 {
+                    // 시작 눌렀을 때
+                    lbRunning.Visible = true;
                     nDelayTime = 0;
                     btnStart.Text = Properties.Resources.End.ToString();
                     this.pbxTimerState.Image = Properties.Resources.GreenCircle;

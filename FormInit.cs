@@ -48,6 +48,8 @@ namespace VRTimer
 
         private void BtnInitOk_Click(object sender, EventArgs e)
         {
+            lbYourRate.Text = "0";
+            lbMyRate.Text = "0";
             ePasswordOk(sender, e);
         }
 
