@@ -69,7 +69,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VRTimer.Properties.Resources.FormIcon;
-            this.pictureBox2.Location = new System.Drawing.Point(599, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(609, 7);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(74, 41);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -92,7 +92,7 @@
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.btnExit.Location = new System.Drawing.Point(724, 2);
+            this.btnExit.Location = new System.Drawing.Point(724, 7);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(29, 32);
             this.btnExit.TabIndex = 50;
@@ -105,7 +105,7 @@
             this.btnInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnInfo.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnInfo.ForeColor = System.Drawing.Color.DimGray;
-            this.btnInfo.Location = new System.Drawing.Point(687, 4);
+            this.btnInfo.Location = new System.Drawing.Point(687, 7);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(33, 33);
             this.btnInfo.TabIndex = 49;
