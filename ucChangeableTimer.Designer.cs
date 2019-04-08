@@ -35,6 +35,7 @@
             this.timer_Calc = new VRTimer.ucTimerCalc();
             this.timer_fixed = new VRTimer.ucTimer();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.iTalk_Label1 = new iTalk.iTalk_Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.lbSerialNo.BackColor = System.Drawing.Color.Transparent;
             this.lbSerialNo.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbSerialNo.ForeColor = System.Drawing.Color.Black;
-            this.lbSerialNo.Location = new System.Drawing.Point(3, 18);
+            this.lbSerialNo.Location = new System.Drawing.Point(9, 18);
             this.lbSerialNo.Name = "lbSerialNo";
             this.lbSerialNo.Size = new System.Drawing.Size(40, 13);
             this.lbSerialNo.TabIndex = 22;
@@ -91,11 +92,24 @@
             this.timer_fixed.Size = new System.Drawing.Size(525, 50);
             this.timer_fixed.TabIndex = 0;
             // 
+            // iTalk_Label1
+            // 
+            this.iTalk_Label1.AutoSize = true;
+            this.iTalk_Label1.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_Label1.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.iTalk_Label1.ForeColor = System.Drawing.Color.Black;
+            this.iTalk_Label1.Location = new System.Drawing.Point(-2, 16);
+            this.iTalk_Label1.Name = "iTalk_Label1";
+            this.iTalk_Label1.Size = new System.Drawing.Size(14, 13);
+            this.iTalk_Label1.TabIndex = 24;
+            this.iTalk_Label1.Text = "●";
+            // 
             // ucChangeableTimer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Controls.Add(this.iTalk_Label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbSerialNo);
             this.Controls.Add(this.cbChangeTimer);
@@ -114,5 +128,6 @@
         private ucTimerCalc timer_Calc;
         private ucTimer timer_fixed;
         private System.Windows.Forms.ToolTip toolTip1;
+        private iTalk.iTalk_Label iTalk_Label1;
     }
 }
