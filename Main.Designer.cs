@@ -196,7 +196,7 @@
             this.tbHalf.BackColor = System.Drawing.Color.Transparent;
             this.tbHalf.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tbHalf.ForeColor = System.Drawing.Color.DimGray;
-            this.tbHalf.Location = new System.Drawing.Point(352, 31);
+            this.tbHalf.Location = new System.Drawing.Point(348, 31);
             this.tbHalf.MaxLength = 32767;
             this.tbHalf.Multiline = false;
             this.tbHalf.Name = "tbHalf";
@@ -226,7 +226,7 @@
             this.iTalk_Label4.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label4.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label4.Location = new System.Drawing.Point(404, 37);
+            this.iTalk_Label4.Location = new System.Drawing.Point(400, 37);
             this.iTalk_Label4.Name = "iTalk_Label4";
             this.iTalk_Label4.Size = new System.Drawing.Size(18, 13);
             this.iTalk_Label4.TabIndex = 26;
@@ -239,7 +239,7 @@
             this.iTalk_Label2.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label2.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label2.Location = new System.Drawing.Point(316, 37);
+            this.iTalk_Label2.Location = new System.Drawing.Point(312, 37);
             this.iTalk_Label2.Name = "iTalk_Label2";
             this.iTalk_Label2.Size = new System.Drawing.Size(30, 13);
             this.iTalk_Label2.TabIndex = 26;
@@ -268,7 +268,7 @@
             this.iTalk_Label1.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label1.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.iTalk_Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label1.Location = new System.Drawing.Point(233, 37);
+            this.iTalk_Label1.Location = new System.Drawing.Point(229, 37);
             this.iTalk_Label1.Name = "iTalk_Label1";
             this.iTalk_Label1.Size = new System.Drawing.Size(77, 13);
             this.iTalk_Label1.TabIndex = 25;
