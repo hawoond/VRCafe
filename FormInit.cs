@@ -22,7 +22,28 @@ namespace VRTimer
 
         private void Init()
         {
-          //  btnInitOk.Click += BtnInitOk_Click;
+            tbRatePersent.Text = Properties.Settings.Default.ProfitRate.ToString();
+            CalcRate();
+        }
+
+        private void CalcRate()
+        {
+            try
+            {
+                if(int.Parse(tbRatePersent.Text) != 0)
+                {
+                    lbYourRate.Text = (Properties.Settings.Default.TotalUsedFee * (int.Parse(tbRatePersent.Text)/100.0)).ToString();
+                    lbMyRate.Text = (Properties.Settings.Default.TotalUsedFee * ((100 - int.Parse(tbRatePersent.Text))/100.0)).ToString();
+                }
+                else
+                {
+                    MessageBox.Show("0으로는 나눌 수 없습니다.");
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void BtnInitOk_Click(object sender, EventArgs e)
@@ -62,8 +83,13 @@ namespace VRTimer
             }
             catch (Exception ex)
             {
-                tbRatePersent.Text = "0";
-                MessageBox.Show(Properties.Resources.InputPayErrorMessage.ToString());
+                tbRatePersent.Text = Properties.Settings.Default.ProfitRate.ToString();
+                MessageBox.Show("이윤률이 저장되지 않았습니다. 현재 이윤률 : " + Properties.Settings.Default.ProfitRate.ToString() + "\n" + ex.Message);
+            }
+            finally
+            {
+                Properties.Settings.Default.Save();
+                CalcRate();
             }
         }
     }
