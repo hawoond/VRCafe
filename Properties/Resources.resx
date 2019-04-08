@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CalcFeeError" xml:space="preserve">
+    <value>요금 계산에 실패 했습니다.\n관리자에게 문의해주세요.</value>
+  </data>
   <data name="End" xml:space="preserve">
     <value>종료</value>
   </data>
@@ -127,9 +130,9 @@
   <data name="Start" xml:space="preserve">
     <value>시작</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="VR_Cafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\VR_Cafe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FullLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\FullLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RedCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\RedCircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -140,50 +143,49 @@
   <data name="StartTimeForm" xml:space="preserve">
     <value>HH:mm</value>
   </data>
-  <data name="cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\cat.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BlueCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\BlueCircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InputPayErrorMessage" xml:space="preserve">
+    <value>숫자만 입력 해주세요.</value>
   </data>
   <data name="AlarmSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Alarm.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\FormIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HMD3" xml:space="preserve">
+    <value>HMD3</value>
+    <comment>1KWPH800N08474</comment>
   </data>
   <data name="MainIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\MainIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GrayCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\GrayCircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\banner.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GreenCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\GreenCircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CalcFeeError" xml:space="preserve">
-    <value>요금 계산에 실패 했습니다.\n관리자에게 문의해주세요.</value>
+  <data name="GrayCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\GrayCircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="YelloCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\YelloCircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HMD4" xml:space="preserve">
-    <value>HMD4</value>
-    <comment>1KWPH800N08475</comment>
+  <data name="cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\cat.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="InputPayErrorMessage" xml:space="preserve">
-    <value>숫자만 입력 해주세요.</value>
+  <data name="MinimumTimeErrorMessage" xml:space="preserve">
+    <value>1분 이상의 시간을 입력 해주세요.</value>
+  </data>
+  <data name="GreenCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\GreenCircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FormIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HMD1" xml:space="preserve">
     <value>HMD1</value>
     <comment>1KWPH800N08472</comment>
   </data>
-  <data name="HMD3" xml:space="preserve">
-    <value>HMD3</value>
-    <comment>1KWPH800N08474</comment>
+  <data name="VR_Cafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\VR_Cafe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RunningCheck" xml:space="preserve">
     <value>모든 기기를 종료 후 프로그램을 종료 해주세요.</value>
@@ -191,10 +193,12 @@
   <data name="WatchForm" xml:space="preserve">
     <value>HH:mm:ss</value>
   </data>
-  <data name="MinimumTimeErrorMessage" xml:space="preserve">
-    <value>1분 이상의 시간을 입력 해주세요.</value>
+  <data name="HMD4" xml:space="preserve">
+    <value>HMD4</value>
+    <comment>1KWPH800N08475</comment>
   </data>
-  <data name="FullLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\FullLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="vrCafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\vrCafe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

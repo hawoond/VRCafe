@@ -279,6 +279,16 @@ namespace VRTimer.Properties {
         }
         
         /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap vrCafe {
+            get {
+                object obj = ResourceManager.GetObject("vrCafe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   HH:mm:ss과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string WatchForm {

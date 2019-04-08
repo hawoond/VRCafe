@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ucStatistics = new VRTimer.ucStatistics();
             this.btnExit = new iTalk.iTalk_Label();
             this.btnInfo = new iTalk.iTalk_Icon_Info();
@@ -50,21 +51,30 @@
             this.ucChangeableTimer3 = new VRTimer.ucChangeableTimer();
             this.ucChangeableTimer2 = new VRTimer.ucChangeableTimer();
             this.ucChangeableTimer1 = new VRTimer.ucChangeableTimer();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.iTalk_GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.iTalk_GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::VRTimer.Properties.Resources.VR_Cafe;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 4);
+            this.pictureBox1.Image = global::VRTimer.Properties.Resources.vrCafe;
+            this.pictureBox1.Location = new System.Drawing.Point(13, 7);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(53, 41);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::VRTimer.Properties.Resources.FormIcon;
+            this.pictureBox2.Location = new System.Drawing.Point(599, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(74, 41);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 52;
+            this.pictureBox2.TabStop = false;
             // 
             // ucStatistics
             // 
@@ -80,11 +90,11 @@
             // 
             this.btnExit.AutoSize = true;
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.btnExit.Location = new System.Drawing.Point(715, -3);
+            this.btnExit.Location = new System.Drawing.Point(724, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(41, 47);
+            this.btnExit.Size = new System.Drawing.Size(29, 32);
             this.btnExit.TabIndex = 50;
             this.btnExit.Text = "X";
             this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
@@ -92,8 +102,10 @@
             // btnInfo
             // 
             this.btnInfo.BackColor = System.Drawing.Color.White;
+            this.btnInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnInfo.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnInfo.ForeColor = System.Drawing.Color.DimGray;
-            this.btnInfo.Location = new System.Drawing.Point(679, 7);
+            this.btnInfo.Location = new System.Drawing.Point(687, 4);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(33, 33);
             this.btnInfo.TabIndex = 49;
@@ -108,7 +120,7 @@
             this.iTalk_HeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_HeaderLabel1.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.iTalk_HeaderLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(85, 15);
+            this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(85, 17);
             this.iTalk_HeaderLabel1.Name = "iTalk_HeaderLabel1";
             this.iTalk_HeaderLabel1.Size = new System.Drawing.Size(97, 30);
             this.iTalk_HeaderLabel1.TabIndex = 45;
@@ -327,16 +339,6 @@
             this.ucChangeableTimer1.TabIndex = 0;
             this.ucChangeableTimer1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::VRTimer.Properties.Resources.FormIcon;
-            this.pictureBox2.Location = new System.Drawing.Point(599, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(74, 41);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 52;
-            this.pictureBox2.TabStop = false;
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -371,9 +373,9 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Main_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.iTalk_GroupBox1.ResumeLayout(false);
             this.iTalk_GroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -54,11 +54,11 @@
             // 
             this.lbSerialNo.AutoSize = true;
             this.lbSerialNo.BackColor = System.Drawing.Color.Transparent;
-            this.lbSerialNo.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSerialNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
+            this.lbSerialNo.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lbSerialNo.ForeColor = System.Drawing.Color.Black;
             this.lbSerialNo.Location = new System.Drawing.Point(3, 18);
             this.lbSerialNo.Name = "lbSerialNo";
-            this.lbSerialNo.Size = new System.Drawing.Size(39, 13);
+            this.lbSerialNo.Size = new System.Drawing.Size(40, 13);
             this.lbSerialNo.TabIndex = 22;
             this.lbSerialNo.Text = "HMD1";
             // 
