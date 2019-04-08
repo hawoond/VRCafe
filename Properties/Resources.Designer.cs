@@ -158,7 +158,7 @@ namespace VRTimer.Properties {
         }
         
         /// <summary>
-        ///   1KWPH800N08472과(와) 유사한 지역화된 문자열을 찾습니다.
+        ///   HMD1과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string HMD1 {
             get {
@@ -167,7 +167,7 @@ namespace VRTimer.Properties {
         }
         
         /// <summary>
-        ///   1KWPH800N08473과(와) 유사한 지역화된 문자열을 찾습니다.
+        ///   HMD2과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string HMD2 {
             get {
@@ -176,7 +176,7 @@ namespace VRTimer.Properties {
         }
         
         /// <summary>
-        ///   1KWPH800N08474과(와) 유사한 지역화된 문자열을 찾습니다.
+        ///   HMD3과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string HMD3 {
             get {
@@ -185,7 +185,7 @@ namespace VRTimer.Properties {
         }
         
         /// <summary>
-        ///   1KWPH800N08475과(와) 유사한 지역화된 문자열을 찾습니다.
+        ///   HMD4과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string HMD4 {
             get {

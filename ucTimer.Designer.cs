@@ -53,7 +53,7 @@
             this.btnStart.ForeColor = System.Drawing.Color.White;
             this.btnStart.Image = null;
             this.btnStart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStart.Location = new System.Drawing.Point(586, 14);
+            this.btnStart.Location = new System.Drawing.Point(480, 14);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(42, 23);
             this.btnStart.TabIndex = 1;
@@ -66,7 +66,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label2.Location = new System.Drawing.Point(108, 18);
+            this.label2.Location = new System.Drawing.Point(2, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 9;
@@ -78,7 +78,7 @@
             this.lblb.BackColor = System.Drawing.Color.Transparent;
             this.lblb.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lblb.Location = new System.Drawing.Point(225, 18);
+            this.lblb.Location = new System.Drawing.Point(119, 18);
             this.lblb.Name = "lblb";
             this.lblb.Size = new System.Drawing.Size(57, 13);
             this.lblb.TabIndex = 13;
@@ -90,7 +90,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label3.Location = new System.Drawing.Point(203, 18);
+            this.label3.Location = new System.Drawing.Point(97, 18);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(18, 13);
             this.label3.TabIndex = 12;
@@ -101,7 +101,7 @@
             this.lbTime.BackColor = System.Drawing.Color.Transparent;
             this.lbTime.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.lbTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbTime.Location = new System.Drawing.Point(385, 18);
+            this.lbTime.Location = new System.Drawing.Point(279, 18);
             this.lbTime.Name = "lbTime";
             this.lbTime.Size = new System.Drawing.Size(25, 13);
             this.lbTime.TabIndex = 19;
@@ -114,7 +114,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label6.Location = new System.Drawing.Point(407, 18);
+            this.label6.Location = new System.Drawing.Point(301, 18);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(18, 13);
             this.label6.TabIndex = 18;
@@ -126,7 +126,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label7.Location = new System.Drawing.Point(326, 18);
+            this.label7.Location = new System.Drawing.Point(220, 18);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 13);
             this.label7.TabIndex = 17;
@@ -138,7 +138,7 @@
             this.lbStartTime.BackColor = System.Drawing.Color.Transparent;
             this.lbStartTime.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStartTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbStartTime.Location = new System.Drawing.Point(283, 18);
+            this.lbStartTime.Location = new System.Drawing.Point(177, 18);
             this.lbStartTime.Name = "lbStartTime";
             this.lbStartTime.Size = new System.Drawing.Size(33, 13);
             this.lbStartTime.TabIndex = 20;
@@ -161,7 +161,7 @@
             "30",
             "60",
             "1"});
-            this.tbTime.Location = new System.Drawing.Point(149, 11);
+            this.tbTime.Location = new System.Drawing.Point(43, 11);
             this.tbTime.Name = "tbTime";
             this.tbTime.Size = new System.Drawing.Size(55, 26);
             this.tbTime.StartIndex = 0;
@@ -173,7 +173,7 @@
             this.tbExcessTime.BackColor = System.Drawing.Color.Transparent;
             this.tbExcessTime.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.tbExcessTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.tbExcessTime.Location = new System.Drawing.Point(490, 18);
+            this.tbExcessTime.Location = new System.Drawing.Point(384, 18);
             this.tbExcessTime.Name = "tbExcessTime";
             this.tbExcessTime.Size = new System.Drawing.Size(35, 13);
             this.tbExcessTime.TabIndex = 25;
@@ -186,7 +186,7 @@
             this.iTalk_Label3.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label3.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.iTalk_Label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label3.Location = new System.Drawing.Point(520, 18);
+            this.iTalk_Label3.Location = new System.Drawing.Point(414, 18);
             this.iTalk_Label3.Name = "iTalk_Label3";
             this.iTalk_Label3.Size = new System.Drawing.Size(18, 13);
             this.iTalk_Label3.TabIndex = 24;
@@ -198,7 +198,7 @@
             this.iTalk_Label4.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label4.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.iTalk_Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.iTalk_Label4.Location = new System.Drawing.Point(429, 18);
+            this.iTalk_Label4.Location = new System.Drawing.Point(323, 18);
             this.iTalk_Label4.Name = "iTalk_Label4";
             this.iTalk_Label4.Size = new System.Drawing.Size(57, 13);
             this.iTalk_Label4.TabIndex = 23;
@@ -207,7 +207,7 @@
             // pbxTimerState
             // 
             this.pbxTimerState.Image = global::VRTimer.Properties.Resources.YelloCircle;
-            this.pbxTimerState.Location = new System.Drawing.Point(544, 14);
+            this.pbxTimerState.Location = new System.Drawing.Point(442, 14);
             this.pbxTimerState.Name = "pbxTimerState";
             this.pbxTimerState.Size = new System.Drawing.Size(23, 23);
             this.pbxTimerState.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -233,7 +233,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnStart);
             this.Name = "ucTimer";
-            this.Size = new System.Drawing.Size(636, 50);
+            this.Size = new System.Drawing.Size(525, 50);
             ((System.ComponentModel.ISupportInitialize)(this.pbxTimerState)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -47,7 +47,7 @@
             // pbxTimerState
             // 
             this.pbxTimerState.Image = global::VRTimer.Properties.Resources.YelloCircle;
-            this.pbxTimerState.Location = new System.Drawing.Point(545, 14);
+            this.pbxTimerState.Location = new System.Drawing.Point(442, 14);
             this.pbxTimerState.Name = "pbxTimerState";
             this.pbxTimerState.Size = new System.Drawing.Size(23, 23);
             this.pbxTimerState.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -60,7 +60,7 @@
             this.lbStartTime.BackColor = System.Drawing.Color.Transparent;
             this.lbStartTime.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.lbStartTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbStartTime.Location = new System.Drawing.Point(284, 18);
+            this.lbStartTime.Location = new System.Drawing.Point(177, 18);
             this.lbStartTime.Name = "lbStartTime";
             this.lbStartTime.Size = new System.Drawing.Size(33, 13);
             this.lbStartTime.TabIndex = 33;
@@ -73,7 +73,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label6.Location = new System.Drawing.Point(226, 18);
+            this.label6.Location = new System.Drawing.Point(119, 18);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 13);
             this.label6.TabIndex = 32;
@@ -84,7 +84,7 @@
             this.lbPay.BackColor = System.Drawing.Color.Transparent;
             this.lbPay.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.lbPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbPay.Location = new System.Drawing.Point(488, 18);
+            this.lbPay.Location = new System.Drawing.Point(381, 18);
             this.lbPay.Name = "lbPay";
             this.lbPay.Size = new System.Drawing.Size(38, 13);
             this.lbPay.TabIndex = 30;
@@ -97,7 +97,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label5.Location = new System.Drawing.Point(430, 18);
+            this.label5.Location = new System.Drawing.Point(323, 18);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 13);
             this.label5.TabIndex = 29;
@@ -108,7 +108,7 @@
             this.lbTime.BackColor = System.Drawing.Color.Transparent;
             this.lbTime.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.lbTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbTime.Location = new System.Drawing.Point(386, 18);
+            this.lbTime.Location = new System.Drawing.Point(279, 18);
             this.lbTime.Name = "lbTime";
             this.lbTime.Size = new System.Drawing.Size(25, 13);
             this.lbTime.TabIndex = 26;
@@ -121,7 +121,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label4.Location = new System.Drawing.Point(408, 18);
+            this.label4.Location = new System.Drawing.Point(301, 18);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(18, 13);
             this.label4.TabIndex = 25;
@@ -133,7 +133,7 @@
             this.lblb.BackColor = System.Drawing.Color.Transparent;
             this.lblb.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.lblb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lblb.Location = new System.Drawing.Point(327, 18);
+            this.lblb.Location = new System.Drawing.Point(220, 18);
             this.lblb.Name = "lblb";
             this.lblb.Size = new System.Drawing.Size(57, 13);
             this.lblb.TabIndex = 24;
@@ -146,7 +146,7 @@
             this.btnStart.ForeColor = System.Drawing.Color.White;
             this.btnStart.Image = null;
             this.btnStart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStart.Location = new System.Drawing.Point(587, 14);
+            this.btnStart.Location = new System.Drawing.Point(480, 14);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(42, 23);
             this.btnStart.TabIndex = 0;
@@ -159,7 +159,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.label7.Location = new System.Drawing.Point(521, 18);
+            this.label7.Location = new System.Drawing.Point(414, 18);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(18, 13);
             this.label7.TabIndex = 31;
@@ -171,7 +171,7 @@
             this.lbRunning.BackColor = System.Drawing.Color.Transparent;
             this.lbRunning.Font = new System.Drawing.Font("맑은 고딕", 8F);
             this.lbRunning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
-            this.lbRunning.Location = new System.Drawing.Point(109, 18);
+            this.lbRunning.Location = new System.Drawing.Point(43, 18);
             this.lbRunning.Name = "lbRunning";
             this.lbRunning.Size = new System.Drawing.Size(40, 13);
             this.lbRunning.TabIndex = 37;
@@ -194,7 +194,7 @@
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.label7);
             this.Name = "ucTimerCalc";
-            this.Size = new System.Drawing.Size(636, 50);
+            this.Size = new System.Drawing.Size(525, 50);
             ((System.ComponentModel.ISupportInitialize)(this.pbxTimerState)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
