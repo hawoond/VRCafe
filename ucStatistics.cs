@@ -59,8 +59,8 @@ namespace VRTimer
 
             int nCalcPay = nTotalFee * Properties.Settings.Default.ProfitRate / 100;
             int nCalcProfit = nTotalFee * (100 - Properties.Settings.Default.ProfitRate) / 100;
-            tbProfitFee.Text = nCalcProfit.ToString();
-            tbPayment.Text = nCalcPay.ToString();
+            //tbProfitFee.Text = nCalcProfit.ToString();
+            //tbPayment.Text = nCalcPay.ToString();
         }
 
         private void ITalk_Label9_Click(object sender, EventArgs e)

@@ -81,7 +81,7 @@
             this.ucStatistics.BackColor = System.Drawing.Color.White;
             this.ucStatistics.Location = new System.Drawing.Point(13, 357);
             this.ucStatistics.Name = "ucStatistics";
-            this.ucStatistics.Size = new System.Drawing.Size(732, 153);
+            this.ucStatistics.Size = new System.Drawing.Size(732, 88);
             this.ucStatistics.TabIndex = 51;
             this.ucStatistics.TabStop = false;
             this.ucStatistics.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
@@ -344,7 +344,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(757, 517);
+            this.ClientSize = new System.Drawing.Size(757, 452);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.ucStatistics);
