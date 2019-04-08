@@ -27,10 +27,25 @@ namespace VRTimer
 
         private void BtnInitOk_Click(object sender, EventArgs e)
         {
+            ePasswordOk(sender, e);
+        }
+
+
+        private void FormInit_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnInitOk_Click(null, null);
+            }
+        }
+
+        private void BtnPasswordCheck_Click(object sender, EventArgs e)
+        {
             if (mPassword.Equals(tbPassword.Text.ToString()))
             {
-                ePasswordOk(sender, e);
-                this.Close();
+                tbRatePersent.Enabled = true;
+                btnRateOK.Enabled = true;
+                btnInitOk.Enabled = true;
                 return;
             }
             else
@@ -39,11 +54,16 @@ namespace VRTimer
             }
         }
 
-        private void FormInit_KeyDown(object sender, KeyEventArgs e)
+        private void BtnRateOK_Click(object sender, EventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            try
             {
-                BtnInitOk_Click(null, null);
+                Properties.Settings.Default.ProfitRate = int.Parse(tbRatePersent.Text);
+            }
+            catch (Exception ex)
+            {
+                tbRatePersent.Text = "0";
+                MessageBox.Show(Properties.Resources.InputPayErrorMessage.ToString());
             }
         }
     }
