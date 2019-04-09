@@ -26,6 +26,7 @@ namespace VRTimer
 
         public void Init()
         {
+
             tbTime.Text = "30";
             btnStart.Text = Properties.Resources.Start.ToString();
             lbStartTime.Text = "00:00";
@@ -54,7 +55,7 @@ namespace VRTimer
                 {
                     this.Player.Stop();
                     btnStart.Text = Properties.Resources.Start.ToString();
-                    
+
                     tbTime.Enabled = true;
                     if (null != timerVR)
                     {
@@ -73,7 +74,7 @@ namespace VRTimer
 
                     eTempDataBridge(sender, e, udtFeeData);
                     eStartBtn(sender, e);
-                    
+
                     return;
                 }
                 else
@@ -114,17 +115,20 @@ namespace VRTimer
         {
             nDelayTime++;
             lbTime.Text = (nDelayTime / 60).ToString();
-         
+
             if (nMaxTime <= nDelayTime)
             {
-                tbExcessTime.Text = ((nDelayTime / 60)- int.Parse(tbTime.Text)).ToString();
+                tbExcessTime.Text = ((nDelayTime / 60) - int.Parse(tbTime.Text)).ToString();
                 tbExcessTime.ForeColor = System.Drawing.Color.Red;
 
                 if (nMaxTime == nDelayTime)
                 {
-                    // 리소스에서 사운드 가져와서 재생
-                    this.Player.Stream = Properties.Resources.AlarmSound;
-                    this.Player.PlayLooping();
+                    if (Properties.Settings.Default.AlarmYn)
+                    {
+                        // 리소스에서 사운드 가져와서 재생
+                        this.Player.Stream = Properties.Resources.AlarmSound;
+                        this.Player.PlayLooping();
+                    }
                 }
 
                 if (nDelayTime % 2 == 1)

@@ -23,6 +23,7 @@ namespace VRTimer
         private void Init()
         {
             tbRatePersent.Text = Properties.Settings.Default.ProfitRate.ToString();
+            cbAlarm.Checked = Properties.Settings.Default.AlarmYn;
             CalcRate();
         }
 
@@ -93,6 +94,25 @@ namespace VRTimer
                 Properties.Settings.Default.Save();
                 CalcRate();
             }
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void CbAlarm_CheckedChanged(object sender, EventArgs e)
+        {
+            if(((CheckBox)sender).Checked)
+            {
+                Properties.Settings.Default.AlarmYn = true;
+            }
+            else
+            {
+                Properties.Settings.Default.AlarmYn = false;
+            }
+
+            Properties.Settings.Default.Save();
         }
     }
 }

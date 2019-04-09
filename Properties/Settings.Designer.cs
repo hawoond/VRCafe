@@ -106,5 +106,17 @@ namespace VRTimer.Properties {
                 this["TotalUsedCount"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool AlarmYn {
+            get {
+                return ((bool)(this["AlarmYn"]));
+            }
+            set {
+                this["AlarmYn"] = value;
+            }
+        }
     }
 }
