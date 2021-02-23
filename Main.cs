@@ -53,9 +53,13 @@ namespace VRTimer
                 MessageBox.Show(Properties.Resources.InputPayErrorMessage.ToString());
             }
             ucChangeableTimer1.SetSerialNoText(Properties.Resources.HMD1);
+            ucChangeableTimer1.SetSerialNoTooltipText(Properties.Resources.HMD1ToolTip);
             ucChangeableTimer2.SetSerialNoText(Properties.Resources.HMD2);
+            ucChangeableTimer2.SetSerialNoTooltipText(Properties.Resources.HMD2ToolTip);
             ucChangeableTimer3.SetSerialNoText(Properties.Resources.HMD3);
+            ucChangeableTimer3.SetSerialNoTooltipText(Properties.Resources.HMD3ToolTip);
             ucChangeableTimer4.SetSerialNoText(Properties.Resources.HMD4);
+            ucChangeableTimer4.SetSerialNoTooltipText(Properties.Resources.HMD4ToolTip);
 
         }
 

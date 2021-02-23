@@ -149,6 +149,7 @@
     <Content Include="Image\GreenCircle.png" />
     <Content Include="Image\RedCircle.png" />
     <Content Include="Image\Sample.jpg" />
+    <Content Include="Image\vrCafe.png" />
     <Content Include="Image\VR_Cafe.png" />
     <Content Include="Image\YelloCircle.png" />
     <None Include="MainIcon.png" />
